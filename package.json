@@ -1,4 +1,12 @@
 {
   "name": "stat-api",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "express": "latest",
+    "node-fetch": "latest"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
 }
